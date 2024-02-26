@@ -27,6 +27,8 @@ body{
   row-gap:30px;
 }
 .c-04{
+  position:relative;
+  top:100px;
   margin-bottom:30px; 
 }
 .html-button{
@@ -72,12 +74,12 @@ body{
 .light{
   margin:0;
   position:relative;
-  left:770px;
-  top: 18px;
+ float:right;
+  top: -20px;
 }
 .dark{
   margin:0;
   position:relative;
-  top:-50px;
-  left:1050px;
+  top:-20px;
+  float:right;
 }
