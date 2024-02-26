@@ -21,7 +21,7 @@ body{
 }
 .c-04,.c-05{
   display:grid;
-  grid-template-columns:100px 100px 700px;
+  grid-template-columns:100px 100px 70px;
   font-family:arial;
   font-size:10vw;
   row-gap:30px;
@@ -34,7 +34,7 @@ body{
 @media only screen and (max-width: 600px){
   .c-04,.c-05{
     display:grid;
-    grid-template-columns:70px 70px 40px;
+    grid-template-columns:100px 100px 70px;
     font-family:arial;
     font-size:30px;
     row-gap:30px;
@@ -107,9 +107,9 @@ body{
   justify-content: flex-end;
 }
 .c-01{
-  width:80px;
+  width:100px;
 }
 .c-02{
-  width:80px;
+  width:100px;
 }
 
