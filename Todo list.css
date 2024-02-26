@@ -23,7 +23,7 @@ body{
   display:grid;
   grid-template-columns:170px 170px 150px;
   font-family:arial;
-  font-size:4vw;
+  font-size:7vw;
   row-gap:30px;
   position:relative;
   top:100px;
@@ -46,8 +46,8 @@ body{
 }
 .js-button{
   font-family:arial;
-  font-size:30px;
-  padding:13px 56.55px;
+  font-size:27px;
+  padding:13px 52px;
   border:none;
   background-color:red;
   color:white;
