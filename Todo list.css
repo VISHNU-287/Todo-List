@@ -21,15 +21,34 @@ body{
 }
 .c-04,.c-05{
   display:grid;
-  grid-template-columns:300px 300px 300px;
+  grid-template-columns:auto auto auto;
   font-family:arial;
-  font-size:30px;
+  font-size:10vw;
   row-gap:30px;
   position:relative;
   top:100px;
 }
 .c-04{
   margin-bottom:30px; 
+}
+@media only screen and (max-width: 600px){
+  .c-04,.c-05{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    font-family:arial;
+    font-size:30px;
+    row-gap:30px;
+    position:relative;
+    top:100px;
+  }
+  .c-04{
+    margin-bottom:30px; 
+  }
+  .two-button{
+    display:flex;
+    justify-content: flex-end;
+  }
+
 }
 .html-button{
   font-family:arial;
@@ -85,4 +104,5 @@ body{
 }
 .two-button{
   display:flex;
+  justify-content: flex-end;
 }
