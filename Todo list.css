@@ -21,7 +21,7 @@ body{
 }
 .c-04,.c-05{
   display:grid;
-  grid-template-columns:auto auto auto;
+  grid-template-columns:100px 100px 700px;
   font-family:arial;
   font-size:10vw;
   row-gap:30px;
