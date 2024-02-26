@@ -25,10 +25,10 @@ body{
   font-family:arial;
   font-size:30px;
   row-gap:30px;
-}
-.c-04{
   position:relative;
   top:100px;
+}
+.c-04{
   margin-bottom:30px; 
 }
 .html-button{
@@ -82,4 +82,7 @@ body{
   position:relative;
   top:-20px;
   float:right;
+}
+.two-button{
+  display:flex;
 }
